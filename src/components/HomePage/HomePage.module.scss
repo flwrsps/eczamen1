@@ -1,0 +1,28 @@
+.HomePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  gap: 20px;
+  background-color: aquamarine;
+  padding: 20px;
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .inputs {
+      padding: 8px 30px;
+      border-radius: 10px;
+      border: none;
+    }
+    .buttons {
+      padding: 8px 30px;
+      border-radius: 10px;
+      border: none;
+    }
+  }
+}
